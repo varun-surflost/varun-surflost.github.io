@@ -13,7 +13,7 @@
         }
 
         .hero {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #b7000051 24%, #b08cbeb3 100%);
             color: white;
             min-height: 100vh;
             display: flex;
@@ -135,7 +135,7 @@
         .stat-number {
             font-size: 3rem;
             font-weight: 700;
-            color: #667eea;
+            color: #7aa1d2;
             display: block;
         }
 
@@ -162,13 +162,13 @@
 
         .feature-card:hover {
             transform: translateY(-10px);
-            border-color: #667eea;
+            border-color: #cc95c0;
         }
 
         .feature-icon {
             width: 80px;
             height: 80px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #cc95c0, #dbd4b4, #7aa1d2);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -184,7 +184,7 @@
         }
 
         .magic-moment {
-            background: linear-gradient(135deg, #ff6b6b, #feca57);
+            background: linear-gradient(135deg, #c46600b3 0%, #6c3483b3 100%);
             color: white;
             text-align: center;
         }
@@ -230,7 +230,7 @@
         }
 
         .cta-section {
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #c46600b3 0%, #6c3483b3 100%);
             color: white;
             text-align: center;
             padding: 5rem 2rem;
@@ -245,10 +245,11 @@
         }
 
         .btn-primary {
-            background: white;
-            color: #667eea;
+            background: #dbd4b4;
+            /* color: #cc95c0; */
             padding: 1rem 2rem;
             border-radius: 50px;
+            border: 2px solid #2c3e50;
             text-decoration: none;
             font-weight: 600;
             transition: all 0.3s ease;
@@ -256,9 +257,9 @@
 
         .btn-secondary {
             background: transparent;
-            color: white;
+            color: #7aa1d2;
             padding: 1rem 2rem;
-            border: 2px solid white;
+            border: 2px solid #7aa1d2;
             border-radius: 50px;
             text-decoration: none;
             font-weight: 600;
