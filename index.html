@@ -43,20 +43,20 @@
             margin-right: auto;
         }
         .hero {
-            background: linear-gradient(120deg, #212529 60%, #343a40 100%);
+            background: linear-gradient(135deg, #cc95c0 0%, #dbd4b4 50%, #7aa1d2 100%);
         }
         .hero::before {
             /* ...existing styles... */
             pointer-events: none;
         }
         .enterprise-section {
-            background: linear-gradient(120deg, #212529 60%, #343a40 100%);
+            background: #dbd4b4;
         }
         .magic-moment {
-            background: linear-gradient(120deg, #0d6efd 60%, #0a58ca 100%);
+            background: #cc95c0;
         }
         .cta-section {
-            background: linear-gradient(120deg, #0d6efd 60%, #0a58ca 100%);
+            background: linear-gradient(135deg, #cc95c0 0%, #dbd4b4 50%, #7aa1d2 100%);
         }
     </style>
 </head>
@@ -65,7 +65,7 @@
     <section class="hero bg-dark text-light py-5">
         <div class="container text-center">
             <img src="surflost.png" alt="Surflost - Lost and Found Reimagined" height="100" class="mb-3">
-            <p class="lead tagline mb-4">Lost &amp; Found. Customer Success. Empowering Communities.</p>
+            <p class="lead tagline mb-4">Lost &amp; Found. Customer Success. Connecting Communities.</p>
             <a href="#features" class="btn btn-primary btn-lg shadow">Discover the Magic <i class="bi bi-stars ms-2"></i></a>
         </div>
         <div class="scroll-indicator text-center mt-4">
@@ -115,32 +115,40 @@
     <!-- Features Section -->
     <section class="section py-5" id="features">
         <div class="container">
-            <h2 class="mb-5 text-center">The Surflost Solution</h2>
+            <h2 class="mb-5 text-center">Surflost Solution</h2>
             <div class="features-grid">
                 <div class="col-md-6 col-lg-3 mb-4">
                     <div class="card feature-card h-100 text-center shadow">
-                        <div class="feature-icon display-4 mb-3 text-primary"><i class="bi bi-geo-alt-fill"></i></div>
+                        <div class="feature-icon display-4 mb-3" style="background: linear-gradient(135deg, #cc95c0, #7aa1d2); color: #fff; border-radius: 50%; box-shadow: 0 2px 12px #dbd4b4; padding: 18px;">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
                         <h3 class="h5">Smart Location Reporting</h3>
                         <p>Found something? Snap a photo, add a description—GPS tags the spot. One-tap posting, instant visibility.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4">
                     <div class="card feature-card h-100 text-center shadow">
-                        <div class="feature-icon display-4 mb-3 text-info"><i class="bi bi-robot"></i></div>
+                        <div class="feature-icon display-4 mb-3" style="background: linear-gradient(135deg, #cc95c0, #7aa1d2); color: #fff; border-radius: 50%; box-shadow: 0 2px 12px #dbd4b4; padding: 18px;">
+                            <i class="bi bi-robot"></i>
+                        </div>
                         <h3 class="h5">AI-Powered Image Search</h3>
                         <p>Cutting-edge visual search. Upload a photo of your lost item—our AI finds matches in seconds, nearby and relevant.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4">
                     <div class="card feature-card h-100 text-center shadow">
-                        <div class="feature-icon display-4 mb-3 text-warning"><i class="bi bi-shield-lock-fill"></i></div>
+                        <div class="feature-icon display-4 mb-3" style="background: linear-gradient(135deg, #cc95c0, #7aa1d2); color: #fff; border-radius: 50%; box-shadow: 0 2px 12px #dbd4b4; padding: 18px;">
+                            <i class="bi bi-shield-lock-fill"></i>
+                        </div>
                         <h3 class="h5">Privacy First</h3>
                         <p>Your identity stays protected. Secure, anonymous communication between finders and seekers.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4">
                     <div class="card feature-card h-100 text-center shadow">
-                        <div class="feature-icon display-4 mb-3 text-success"><i class="bi bi-globe2"></i></div>
+                        <div class="feature-icon display-4 mb-3" style="background: linear-gradient(135deg, #cc95c0, #7aa1d2); color: #fff; border-radius: 50%; box-shadow: 0 2px 12px #dbd4b4; padding: 18px;">
+                            <i class="bi bi-globe2"></i>
+                        </div>
                         <h3 class="h5">Location-Based Search</h3>
                         <p>Enter your location, instantly see found items nearby. Filter by distance, date, and category—find what matters most.</p>
                     </div>
@@ -150,16 +158,20 @@
     </section>
 
     <!-- Magic Moment -->
-    <section class="magic-moment bg-primary text-light py-5">
+    <section class="magic-moment bg-secondary text-light py-5">
         <div class="container">
-            <h2 class="mb-4 text-center">A Real-Life Miracle</h2>
-            <div class="story-card card p-4 shadow-lg mx-auto mb-4" style="max-width: 700px;">
-                <i class="bi bi-heart-fill text-danger fs-2 mb-3"></i>
-                <p class="fs-5 mb-0 text-white">
-                    "Sarah lost her grandmother’s vintage earring at the mall. Devastated, she turned to Surflost—uploaded a photo, searched nearby. Within moments, our AI matched her image to a store employee’s report. Thirty minutes later, Sarah was reunited with her cherished earring, tears of joy streaming down her face."
+            <h2 class="mb-4 text-center fw-bold" style="background: linear-gradient(90deg, #cc95c0, #dbd4b4, #7aa1d2); background-clip: text; -webkit-background-clip: text; color: transparent; -webkit-text-fill-color: transparent; font-size: 2.5rem; letter-spacing: 1px; text-shadow: 0 2px 12px #cc95c044;">A Real-Life Example</h2>
+            <div class="story-card card p-4 shadow-lg mx-auto mb-4" style="max-width: 700px; border: 3px solid #dbd4b4; background: linear-gradient(135deg, #cc95c0 80%, #dbd4b4 100%);">
+                <!-- <div class="d-flex flex-column align-items-center">
+                    <span style="background: radial-gradient(circle, #ff6f91 60%, #cc95c0 100%); box-shadow: 0 0 16px #ff6f91aa, 0 2px 12px #dbd4b4; border-radius: 50%; padding: 16px; margin-bottom: 16px; display: inline-block;">
+                        <i class="bi bi-heart-fill" style="color: #fff; font-size: 2.5rem;"></i>
+                    </span>
+                </div> -->
+                <p class="fs-5 mb-0 text-white text-center" style="font-weight: 500; text-shadow: 0 2px 8px #cc95c044;">
+                    "Sarah lost her grandmother’s vintage earring at the mall. Heartbroken, she turned to Surflost—uploaded a photo and searched nearby. Within moments, our AI matched her image to a store employee’s report. Thirty minutes later, Sarah was reunited with her cherished earring, grateful and relieved."
                 </p>
             </div>
-            <p class="fs-4 text-center mt-3 fw-light">
+            <p class="fs-4 text-center mt-3 fw-light" style="background: linear-gradient(90deg, #7aa1d2, #cc95c0); background-clip: text; -webkit-background-clip: text; color: transparent; -webkit-text-fill-color: transparent; font-size: 2rem; text-shadow: 0 2px 8px #7aa1d244;">
                 That’s the Surflost difference.
             </p>
         </div>
@@ -168,42 +180,53 @@
     <!-- Enterprise Section -->
     <section class="enterprise-section bg-dark text-light py-5">
         <div class="container">
-            <h2 class="mb-4 text-center">Enterprise Solution</h2>
-            <h1 class="text-center fw-bold">Tag . Spaces</h1>
-            <p class="fs-4 text-center mb-5">
-                Transform your chaotic lost property box into a seamless, professional customer success experience.
+            <h2 class="mb-4 text-center fw-bold" style="background: linear-gradient(90deg, #cc95c0, #dbd4b4, #7aa1d2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 2.5rem; letter-spacing: 1px; text-shadow: 0 2px 12px #cc95c044;">Enterprise Solution</h2>
+            <h1 class="text-center fw-bold" style="background: linear-gradient(90deg, #7aa1d2, #cc95c0, #dbd4b4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 3rem; letter-spacing: 2px; text-shadow: 0 2px 16px #7aa1d244;">Tag . Spaces</h1>
+            <p class="fs-4 text-center mb-5" style="font-weight: 500;">
+                Transform your lost property box into a seamless, professional customer success experience.
             </p>
             <div class="row tag-features justify-content-center">
                 <div class="col-md-6 col-lg-3 mb-4">
-                    <div class="card tag-feature h-100 bg-secondary text-light shadow">
-                        <div class="card-body">
-                            <h4 class="mb-2"><i class="bi bi-building me-2"></i>Complete Management System</h4>
+                    <div class="card tag-feature h-100 bg-secondary text-light shadow-lg">
+                        <div class="card-body text-center">
+                            <div class="feature-icon mb-2" style="background: linear-gradient(135deg, #cc95c0, #7aa1d2); color: #fff; border-radius: 50%; box-shadow: 0 2px 12px #dbd4b4; padding: 16px; display: inline-block;">
+                                <i class="bi bi-building" style="font-size: 2rem;"></i>
+                            </div>
+                            <h4 class="mt-2 mb-2 fw-bold">Complete Management System</h4>
                             <p>All public platform features, plus advanced tools for businesses, stores, and venues—effortless lost property management.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4">
-                    <div class="card tag-feature h-100 bg-secondary text-light shadow">
-                        <div class="card-body">
-                            <h4 class="mb-2"><i class="bi bi-clipboard-check me-2"></i>Smart Claim Process</h4>
-                            <p>Customers request searches, staff match items, secure handoff verification—turn lost items into customer wins.</p>
+                    <div class="card tag-feature h-100 bg-secondary text-light shadow-lg">
+                        <div class="card-body text-center">
+                            <div class="feature-icon mb-2" style="background: linear-gradient(135deg, #7aa1d2, #cc95c0); color: #fff; border-radius: 50%; box-shadow: 0 2px 12px #dbd4b4; padding: 16px; display: inline-block;">
+                                <i class="bi bi-clipboard-check" style="font-size: 2rem;"></i>
+                            </div>
+                            <h4 class="mt-2 mb-2 fw-bold">Smart Claim Process</h4>
+                            <p>Customers request searches, staff match items, secure handoff verification—turn lost items into customer success stories.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 mb-4">
-                    <div class="card tag-feature h-100 bg-secondary text-light shadow">
-                        <div class="card-body">
-                            <h4 class="mb-2"><i class="bi bi-shield-lock me-2"></i>Secure Item Categories</h4>
-                            <p><strong>Public:</strong> Open search for all<br><strong>Secured:</strong> High-value items require claim verification</p>
+                    <div class="card tag-feature h-100 bg-secondary text-light shadow-lg">
+                        <div class="card-body text-center">
+                            <div class="feature-icon mb-2" style="background: linear-gradient(135deg, #dbd4b4, #cc95c0); color: #fff; border-radius: 50%; box-shadow: 0 2px 12px #7aa1d2; padding: 16px; display: inline-block;">
+                                <i class="bi bi-shield-lock" style="font-size: 2rem;"></i>
+                            </div>
+                            <h4 class="mt-2 mb-2 fw-bold">Secure Item Categories</h4>
+                            <p><strong>Public:</strong> Open search for all<br><strong>Secured:</strong> High-value items require claim verification.</p>
                         </div>
                     </div>
                 </div>
-                
                 <div class="col-md-6 col-lg-3 mb-4">
-                    <div class="card tag-feature h-100 bg-secondary text-light shadow">
-                        <div class="card-body">
-                            <h4 class="mb-2"><i class="bi bi-bar-chart-line me-2"></i>Success Analytics</h4>
-                            <p>Track reunions, measure customer satisfaction, and optimize your lost &amp; found operations.</p>
+                    <div class="card tag-feature h-100 bg-secondary text-light shadow-lg">
+                        <div class="card-body text-center">
+                            <div class="feature-icon mb-2" style="background: linear-gradient(135deg, #cc95c0, #dbd4b4); color: #fff; border-radius: 50%; box-shadow: 0 2px 12px #7aa1d2; padding: 16px; display: inline-block;">
+                                <i class="bi bi-bar-chart-line" style="font-size: 2rem;"></i>
+                            </div>
+                            <h4 class="mt-2 mb-2 fw-bold">Success Analytics</h4>
+                            <p>Track reunions, measure customer satisfaction, and optimize your lost and found operations.</p>
                         </div>
                     </div>
                 </div>
@@ -214,9 +237,8 @@
     <!-- Final CTA -->
     <section class="cta-section bg-primary text-light py-5">
         <div class="container text-center">
-            <h2 class="mb-4">Ready to Reunite the World?</h2>
             
-            <img src="surflost_logo.png" class="rounded-4 mb-2" alt="" height="100">
+            <img src="surflost_logo.png" class="rounded-4 mb-2 shadow-lg" alt="" height="100">
 
             <p class="fs-4 mb-4">
                 Join the movement to promote human kindness.
